@@ -1,0 +1,24 @@
+#!/bin/bash
+
+#Ler três nomes
+echo "Digite três nomes"
+read -p "Digite o primeiro nome: " nome1
+read -p "Digite o segundo nome: " nome2
+read -p "Digite o terceiro nome: " nome3
+sleep 0.5
+
+#Ler três nomes de telefone
+echo -e "\nDigite três números de telefone"
+read -p "Digite o primeiro número: " n1
+read -p "Digite o segundo número: " n2
+read -p "Digite o terceiro número: " n3
+sleep 0.5
+
+#Imprimindo na tela  os três telefones e os três nomes
+echo -e "\nPrimeiro telefone: ${n1}"
+echo "Segundo telefone: ${n2}"
+echo "Terceiro telefone: ${n3}"
+
+echo -e "\nPrimeiro nome: ${nome1}"
+echo "Segundo nome: ${nome2}"
+echo "Terceiro nome: ${nome3}"
