@@ -2,7 +2,7 @@ arquivo criado
 para
 testar
 o
-script
+script do ex02.sh
 1
 2
 3

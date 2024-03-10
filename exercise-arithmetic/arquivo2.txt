@@ -3,5 +3,5 @@ criado
 para
 testar
 o
-script
+script do ex02.sh
 sete linhas no total
