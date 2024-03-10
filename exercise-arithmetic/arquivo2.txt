@@ -1,0 +1,7 @@
+arquivo
+criado
+para
+testar
+o
+script
+sete linhas no total
