@@ -1,0 +1,13 @@
+atest.sh
+a.txt
+operadores.txt
+Script
+test1.sh
+test2.sh
+testando.txt
+02-variaveis
+1
+ex1_script_01.sh
+shellscript-exercises
+teste2.sh
+t.sh

@@ -1,0 +1,1 @@
+ls: não foi possível acessar '/home/padin': Arquivo ou diretório inexistente
