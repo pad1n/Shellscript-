@@ -39,7 +39,8 @@ function primeiroambiente(){
         # Terceira métrica: Subdomínios com status code 200
         echo -e "${verde}Terceira métrica - SUBDOMÍNIOS VÁLIDOS (STATUS CODE 200)${scor}"
         httpx -mc 200 -silent < subfinder_1.txt > subf1_200.txt
-        cat subf1_200.txt
+        totalv=$(wc -l < subf1_200.txt)
+        echo "Total de subdomínios válidos: ${totalv}"
         echo
 
         # Quarta métrica: Consumo de CPU e memória
@@ -88,7 +89,8 @@ function segundoambiente(){
         # Terceira métrica: Subdomínios com status code 200
         echo -e "${verde}Terceira métrica - SUBDOMÍNIOS VÁLIDOS (STATUS CODE 200)${scor}"
         httpx -mc 200 -silent < subfinder_2.txt > subf2_200.txt
-        cat subf2_200.txt
+        totalv=$(subf2_200.txt < wc -l)
+        echo -e "Total de subdomínios válidos: ${totalv}"
         echo
 
         # Quarta métrica: Consumo de CPU e memória
@@ -137,7 +139,8 @@ function terceiroambiente(){
         # Terceira métrica: Subdomínios com status code 200
         echo -e "${verde}Terceira métrica - SUBDOMÍNIOS VÁLIDOS (STATUS CODE 200)${scor}"
         httpx -mc 200 -silent < assetfinder_1.txt > asset1_200.txt
-        cat asset1_200.txt
+        totalv=$(wc -l < asset1_200.txt)
+        echo -e "Total de subdomínios válidos: ${totalv}"
         echo
 
         # Quarta métrica: Consumo de CPU e memória
@@ -186,7 +189,8 @@ function quartoambiente(){
         # Terceira métrica: Subdomínios com status code 200
         echo -e "${verde}Terceira métrica - SUBDOMÍNIOS VÁLIDOS (STATUS CODE 200)${scor}"
         httpx -mc 200 -silent < assetfinder_2.txt > asset2_200.txt
-        cat asset2_200.txt
+        totalv=$(wc -l < asset2_200.txt)
+        echo -e "Total de subdomínios válidos: ${totalv}"
         echo
 
         # Quarta métrica: Consumo de CPU e memória
